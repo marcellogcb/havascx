@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.container{
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5f4e81898801933e1e31f9de/1601642774757-5G592K7F4WEYP9WQWY6I/ke17ZwdGBToddI8pDm48kBnkKLm6gcqoGXl8EPhKMIh7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UaFQnn21Z-Js-TqyvzhzhIoxPm_P3-a9HEC1Da1nPGHrMW9u6oXQZQicHHG1WEE6fg/Welcome_banner-05.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 500px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    opacity: 88%;
+}
+.navbar{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.havaslogo{
+    display: flexbox;
+    background-image: url("https://images.squarespace-cdn.com/content/5f4e81898801933e1e31f9de/1601930658516-TLT6G9G33MZDF1UG7KME/_cx_white.png?content-type=image%2Fpng");
+    width: 120px;
+    height: 70px;
+    background-size:cover;
+    margin-top: 10px;
+    opacity: 100%;
+
+}
+.view1{
+    display: block;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+    height: 30px;
+    width: 70px;
+    color: black;
+    background-image: white;
+    font-weight: bold;
+}
+.view1:hover{
+    opacity: 90%;
+}
+
+/* Inicio do view 1 */
+
+.resultado1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to top, indigo 5%, rgb(178, 143, 219));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.artigo{
+    background-color: whitesmoke;
+    width: 280px;
+    height: 140px;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin-bottom: 8px;
+    padding: 1rem;
+}
+
+.title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    font-size: 10px;
+    text-align: center;
+}
+.bodyview{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: 10px; 
+    text-align: center;
+}
+.h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    font-size: 10px;
+    text-align: center;
+}
+.id{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    font-size: 10px; 
+    text-align: center;
+}
+
+.resultado{
+    padding-top: 120px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, indigo 5%, rgb(178, 143, 219));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.weare{
+    margin-top: -75px;
+    margin-left: 40px;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+.texto{
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: 'Lato';
+    display: grid;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.havascx{
+    font-size: 70px;
+    opacity: 100%;
+    text-shadow: 1px -2px 1px black;
+}
+
+/* Inicio do View2 */
+
+.modal-container {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-container.show {
+	display: flex;
+}
+
+.modal-content {
+	position: relative;
+	background-color: #2e343a;
+	width: 60%;
+	min-width: 300px;
+	max-width: 720px;
+	color: #fff;
+	border-radius: 10px;
+	border: 2px solid rgba(255, 255, 255, 0.75);
+	box-shadow: 0px 0px 4px 2px #000;
+}
+
+.modal-title {
+	width: 100%;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	padding: 10px;
+	text-align: center;
+}
+
+.modal-body {
+	width: 100%;
+	padding: 20px 10px;
+	text-align: justify;
+	display: flex;
+	flex-direction: row;
+}
+@keyframes show-modal {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -100px, 0);
+	}
+
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+.modal-container.show .modal-content {
+	animation: show-modal 1s;
+}
+
+.lermais {
+    position: absolute;   
+    width: 80px;
+    height: 25px;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    border: 2px solid black;
+}
